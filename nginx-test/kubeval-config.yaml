@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: kubeval-config
-  annotations:
-    config.kubernetes.io/local-config: "true"
-data:
-  ignore_missing_schemas: "true"
-  image: nginx:1.16.2
